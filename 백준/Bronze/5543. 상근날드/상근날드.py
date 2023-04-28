@@ -1,0 +1,8 @@
+a = int(input())
+b = int(input())
+c = int(input())
+ans = min(a, min(b, c))
+d = int(input())
+e = int(input())
+anss = min(d, e)
+print(ans + anss - 50)
